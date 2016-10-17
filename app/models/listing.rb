@@ -1,7 +1,7 @@
 class Listing < ActiveRecord::Base
 
 	if Rails.env.production?
-		           has_attached_file :image,:styles => { :medium => "200x", :thumb => "100x100>" }, :default_url => "img.jpg",
+		           has_attached_file :image,:styles => { :medium => "200x", :thumb => "100x100>" }, :default_url => "https://dl.dropboxusercontent.com/s/uldyecgsdga3r9a/img.jpg?dl=0",
 											:storage => :dropbox,
 											:dropbox_credentials => Rails.root.join("config/dropbox.yml"),
 											:path => ":style/:id_:filename"
