@@ -16,4 +16,7 @@ class PagesController < ApplicationController
 
   def children
   end
+
+  def membership
+  end
 end
