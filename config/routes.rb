@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
  
 
+  resources :kistings
   resources :sistings
   resources :listings
   get 'pages/home'

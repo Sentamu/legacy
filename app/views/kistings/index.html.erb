@@ -4,9 +4,10 @@
 
 
 
+
 <div class="center">
  <div class="row">
- <% @sistings.each do |listing| %>
+ <% @kistings.each do |listing| %>
  <div class="col-md-3">
    <div class="thumbnail">
     <%= link_to image_tag(listing.image.url), listing %>
@@ -29,5 +30,4 @@
 
 <br>
 
-<%= link_to 'New Listing', new_sisting_path, class: "btn btn-link" %>
-
+<%= link_to 'New Listing', new_kisting_path, class: "btn btn-link" %>

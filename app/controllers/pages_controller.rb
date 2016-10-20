@@ -19,4 +19,8 @@ class PagesController < ApplicationController
 
   def membership
   end
+  
+  
+
+  
 end
